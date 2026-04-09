@@ -3,7 +3,7 @@
 ## Purpose
 
 This application provides a template for creating a **custom bulk USB device** on the **STM32H7X** microcontroller series.  
-The standard HAL Cube library generates CDC, HID, or Mass Storage devices — but not a fully custom device.  
+The standard HAL Cube library generates CDC, HID, or Mass Storage devices, but not a fully custom device.  
 This example helps you develop your own USB device with your own Vendor ID (VID), Product ID (PID), Custom vendor name etc.
 Also, you'll get bulk packet data transfers.  I've removed standar
 
