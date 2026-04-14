@@ -98,10 +98,10 @@ SUBSYSTEM=="usb", ATTRS{idVendor}=="1234", ATTRS{idProduct}=="5678", MODE="0666"
 > Replace `1234` and `5678` with your actual VID and PID.
 
 2. Reload `udev` rules:    
-	```sh
-		sudo udevadm control --reload-rules
-		sudo udevadm trigger
-	```
+```sh
+sudo udevadm control --reload-rules
+sudo udevadm trigger
+```
 
 3. Ensure your user belongs to the `plugdev` group:    
 ```sh
